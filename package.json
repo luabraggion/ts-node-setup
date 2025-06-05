@@ -1,6 +1,6 @@
 {
-  "name": "clinical-medical",
-  "description": "A collection of medical and clinical terms for use in various applications.",
+  "name": "ts-node-setup",
+  "description": "Basic node configurations using express and typescript.",
   "version": "1.0.0",
   "main": "index.js",
   "author": "Luã Braggion <luan.braggion@gmail.com>",
@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "npx tsc",
+    "build": "tsc",
     "start": "node dist/index.js",
     "prepare": "husky"
   },
