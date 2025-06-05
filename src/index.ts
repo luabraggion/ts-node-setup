@@ -1,10 +1,10 @@
-import express, { Request, Response } from "express"
-import path from "path"
-import cors from "cors"
-import morgan from "morgan"
-import helmet from "helmet"
 import compression from "compression"
 import cookieParser from "cookie-parser"
+import cors from "cors"
+import express, { Request, Response } from "express"
+import helmet from "helmet"
+import morgan from "morgan"
+import path from "path"
 import { fileURLToPath } from "url"
 
 const app = express()
